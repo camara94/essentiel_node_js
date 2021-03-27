@@ -1,1 +1,3 @@
-"# essentiel_node_js" 
+# Essentiel nodeJS
+
+Dans cette formation, qui s'adresse aux développeurs, vous aborderez Node.js, l'incontournable environnement d'exécution JavaScript. Avec Elise Patrikainen, vous en aborderez les grands principes, puis vous procéderez à son installation, ainsi qu'à celle de tout l'environnement de travail indispensable, dont npm et Microsoft VCS. Au fur et à mesure des chapitres, vous découvrirez, à l'aide d'exemples concrets, les différents modules de Node.js, les opérations I/O asynchrones, les évènements, les streams, les modules Core et les modules npm. Enfin, vous effectuerez une batterie de tests avec un certain nombre d'outils incorporés ou additionnels.
