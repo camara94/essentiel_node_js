@@ -15,3 +15,10 @@ let callback = () => {
 fs.writeFile('bigFile.txt', generateData(), callback);
 const date = Date.now();
 console.log('Disponible');
+const path = 'bigFile.txt';
+function readAndDisplayProgress(err, stats) {
+    const stream = fs.createReadStream(path);
+    stream.on('data', () => console.log('La ' + stream.bytesRead / stats.size * 100 + '%') );
+};
+
+fs.stat(path, readAndDisplayProgress)
