@@ -1,0 +1,28 @@
+{
+  "name": "essentiel_node_js",
+  "version": "1.0.0",
+  "description": "Essentiel du nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camara94/essentiel_node_js.git"
+  },
+  "keywords": [
+    "Node",
+    "express",
+    "es6"
+  ],
+  "author": "CAMARA Laby Damaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camara94/essentiel_node_js/issues"
+  },
+  "homepage": "https://github.com/camara94/essentiel_node_js#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
